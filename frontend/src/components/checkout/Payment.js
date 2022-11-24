@@ -104,7 +104,7 @@ function Payment() {
                         <div className="logo"><img src={logo} alt="icon" className="img"/></div>
                         <div className="header">Subscription payment</div>
                         <div className="subscription">
-                            <div className="price"><h1>€ 9,95</h1></div>
+                            <div className="price">€ 9,95</div>
                             <div className="p3mths">
                                 <span>Ellie's Glossy magazine and newsletter</span>
                                 <span>Payment term every three months</span>

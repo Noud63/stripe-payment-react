@@ -14,13 +14,13 @@ body {
   font-family: "Raleway";
   font-size: 1.2em;
   color: var(--dark-terminal-color);
-   background-color: rgb(65, 0, 0);
+   background-color: #410000;
   }
 
 main {
   max-width: 1200px;
   width: 100%;
-  margin: 0 auto;
+  margin: 20px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,6 +39,13 @@ main {
   border-radius: 10px;
 }
 
+@media only screen and (max-width: 800px) {
+  .checkoutWrapper {
+    width: 90%;
+    flex-direction: column;
+  }
+}
+
 .subscriptionBox {
   width: 50%;
   display: flex;
@@ -46,7 +53,13 @@ main {
   align-items: center;
   flex-direction: column;
   color: rgb(186, 179, 201);
-  /* border: 1px solid red; */
+}
+
+@media only screen and (max-width: 800px) {
+  .subscriptionBox {
+    width: 100%;
+    padding: 40px 0;
+  }
 }
 
 .header {
@@ -101,6 +114,15 @@ img {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: rgb(234, 232, 236);
+}
+
+@media only screen and (max-width: 800px) {
+  .checkoutBox {
+    width: 100%;
+     border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
 }
 
 form > * {

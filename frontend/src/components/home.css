@@ -6,8 +6,7 @@ body {
 
 .container {
     max-width: 1000px;
-    margin: 50px auto;
-    /* height: 300px; */
+    margin: 150px auto;
     width: 90vw;
     display: flex;
     align-items: center;
@@ -60,4 +59,10 @@ h1 {
     height: 50px;
     background-color: transparent;
     border: 1px solid white;
+    transition: .2s ease-in-out;
+}
+
+.checkout_btn:hover {
+ border:1px solid  red;
+ color:red;
 }
