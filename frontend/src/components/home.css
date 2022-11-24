@@ -36,6 +36,12 @@ h1 {
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 700px){
+    .titles {
+        flex-direction: column;
+    }
+}
+
 .titles  span {
     width: 30%;
     padding: 10px 0;
@@ -43,6 +49,15 @@ h1 {
     color: rgb(82, 0, 0);
     background-color: white;
     letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 700px){
+    .titles  span {
+        letter-spacing: 0;
+        font-size: .9rem;
+        margin-bottom: 15px;
+        width: 227px;
+    }
 }
 
 .btnBox {
@@ -54,12 +69,24 @@ h1 {
     margin: 0 20px;
 }
 
+@media only screen and (max-width: 700px){
+    .btnBox {
+        flex-direction: column;
+    }
+}
+
 .checkout_btn {
     width: 30%;
     height: 50px;
     background-color: transparent;
     border: 1px solid white;
     transition: .2s ease-in-out;
+}
+
+@media only screen and (max-width: 700px){
+    .checkout_btn {
+        min-width: 227px;
+    }
 }
 
 .checkout_btn:hover {
