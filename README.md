@@ -17,7 +17,7 @@ Here are three common use cases of accepting payments with Stripe.<br>
 ![stripe](https://user-images.githubusercontent.com/38325801/203768791-96d5e493-4d2e-4e51-8d1c-f8e85f06b174.png)<br><br>
 
 Stripe Payment Element (no redirect)<p>
-![stripe1](https://user-images.githubusercontent.com/38325801/203768801-3ae82564-ec2d-47a6-8e46-da883d72e63f.png)<br><br>
+![stripe1](https://user-images.githubusercontent.com/38325801/203801299-235f29d6-ebf3-4a51-a0a2-388c2a8a0b85.png)<br><br>
 
 Stripe Checkout (redirect to checkout.stripe.com)<p>
 ![stripe2](https://user-images.githubusercontent.com/38325801/203768809-f8684edc-85aa-45c3-8278-a679aba00834.png)<br><br>
