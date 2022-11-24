@@ -1,5 +1,7 @@
 <h1>Stripe Payment Methods</h1>
 
+![stripelogo](https://avatars.githubusercontent.com/u/856813?s=200&v=4)<br>
+
 Stripe makes working with payments easy.<br>
 Here are three common use cases of accepting payments with Stripe.<br>
 
