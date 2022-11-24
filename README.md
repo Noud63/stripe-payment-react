@@ -1,4 +1,6 @@
-<h1><img src='https://avatars.githubusercontent.com/u/856813?s=200&v=4' style="width: 40px"/>Stripe Payment Methods</h1>
+<img src='https://avatars.githubusercontent.com/u/856813?s=200&v=4' style="width: 0px"/>
+
+<h1>Stripe Payment Methods</h1>
 
 
 Stripe makes working with payments easy.<br>
