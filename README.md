@@ -7,7 +7,9 @@ Here are three common use cases of accepting payments with Stripe.<br>
 <li>Payment Element</li>
 <li>Checkout</li>
 <li>Payment Link</li>
-</ul><br><br>
+</ul><br>
+
+
 
 ![stripe](https://user-images.githubusercontent.com/38325801/203768791-96d5e493-4d2e-4e51-8d1c-f8e85f06b174.png)<br><br>
 
