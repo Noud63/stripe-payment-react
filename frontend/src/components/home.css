@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    /* height: 300px; */
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.stripe_header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.titles {
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titles  span {
+    width: 30%;
+    padding: 10px 0;
+    text-align: center;
+    color: rgb(82, 0, 0);
+    background-color: white;
+    letter-spacing: 1px;
+}
+
+.btnBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 20px;
+}
+
+.checkout_btn {
+    width: 30%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+}
