@@ -16,14 +16,13 @@ In order to use this code you first need to create a Stripe account, you can do 
 Install the stripe web SDK's.<br>
 For the backend -> npm install stripe --save.<br>
 For the frontend -> npm install --save @stripe/react-stripe-js @stripe/stripe-js.<br><br>
+
 Then, once registered, get your own publishable key and secret key and store them in a .env file in the root of your project and add it to your gitignore file.<br>
 Replace the YOUR_PUBLISHABLE_KEY and YOUR_SECRET_KEY variables with your own variables.<br><br>
 
-
 For the Stripe Elements as well as Stripe checkout you need to set up a server in order to protect your secret key.<br>
 In this example I set up a server with Express/Node.<br>
-Nevert expose your secret key in the frontend!<br><br>
-
+Never expose your secret key inside the client side of your app!<br><br>
 
 You can fully customize the look and feel of your Stripe Elements by using the <a href="https://stripe.com/docs/elements/appearance-api">Elements Appearance API</a>
 Style your Stripe Checkout by using the <a href="https://stripe.com/docs/payments/checkout/customization">Customize Checkout</a><br>
