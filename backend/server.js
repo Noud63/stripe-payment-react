@@ -7,7 +7,7 @@ app.use(cors())
 app.use(express.json())
 dotenv.config()
 
-app.use('/getPubKey', require('./routes/GetKeyRoute'))
+app.use('/getPubKey', require('./routes/GetPubKeyRoute'))
 app.use('/stripepaymentelement', require('./routes/PaymentIntentRoute'))
 app.use('/stripeCheckout', require('./routes/checkoutRoute'))
 

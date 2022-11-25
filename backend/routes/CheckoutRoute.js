@@ -3,7 +3,7 @@ const router = express.Router()
 const app = express()
 const dotenv = require('dotenv')
 dotenv.config()
-const stripe = require('stripe')(process.env.REACT_APP_STRIPE_SECRET_KEY);
+const stripe = require('stripe')(process.env.YOUR_SECRET_KEY);
 app.use(express.static('public'))
 
 

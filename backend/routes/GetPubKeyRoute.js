@@ -6,7 +6,7 @@ dotenv.config()
 
 router.get("/", (req, res) => {
     res.send({
-        publishableKey: process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY,
+        publishableKey: process.env.YOUR_PUBLISHABLE_KEY,
     });
 });
 

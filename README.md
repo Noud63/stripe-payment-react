@@ -12,7 +12,14 @@ Here are three common use cases of accepting payments with Stripe.<br>
 <li>Payment Link</li>
 </ul><br>
 
-In order to use this code you first need to create a Stripe account, you vcan do that <a href="https://dashboard.stripe.com/register?redirect=%2Ftest%2Fdashboard">here</a>.
+In order to use this code you first need to create a Stripe account, you can do that <a href="https://dashboard.stripe.com/register?redirect=%2Ftest%2Fdashboard">here</a>.<br>
+Install the stripe web SDK's. For the backend -> npm install stripe --save.<br>
+For the frontend -> npm install --save @stripe/react-stripe-js @stripe/stripe-js.<br><br>
+Then, once registered, get your own publishable key and secret key and store them in a .env file in the root of your project.<br>
+Replace the YOUR_PUBLISHABLE_KEY and YOUR_SECRET_KEY variables with your own variables.<br>
+Nevert expose your secret key in the frontend!<br>  
+
+
 
 ![stripe](https://user-images.githubusercontent.com/38325801/203768791-96d5e493-4d2e-4e51-8d1c-f8e85f06b174.png)<br><br>
 
