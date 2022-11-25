@@ -1,6 +1,6 @@
 
 
-<div style="width:100%; dispaly:flex; justify-content:center;"><h1>Stripe Payment Methods</h1></div>
+<div style="width:100%; display:flex; justify-content:center;"><h1>Stripe Payment Methods</h1></div>
 
 
 Stripe makes working with payments easy.<br>
