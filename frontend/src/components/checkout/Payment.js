@@ -106,8 +106,8 @@ function Payment() {
                         <div className="subscription">
                             <div className="price">€ 9,95</div>
                             <div className="p3mths">
-                                <span>Ellie's Glossy magazine and newsletter</span>
-                                <span>Payment term every three months</span>
+                                <span>Whatever you want</span>
+                                <span>Whatever you want</span>
                                 
                                     <img src={elliemag} alt="elliemagazine" />
                                
