@@ -12,7 +12,7 @@ Here are three common use cases of accepting payments with Stripe.<br>
 <li>Payment Link</li>
 </ul><br>
 
-
+In order to use this code you first need to create a Stripe account, you vcan do that <a href="https://dashboard.stripe.com/register?redirect=%2Ftest%2Fdashboard">here</a>.
 
 ![stripe](https://user-images.githubusercontent.com/38325801/203768791-96d5e493-4d2e-4e51-8d1c-f8e85f06b174.png)<br><br>
 
