@@ -24,7 +24,7 @@ For the Stripe Elements as well as Stripe checkout you need to set up a server i
 In this example I set up a server with Express/Node.<br>
 Never expose your secret key inside the client side of your app!<br>
 
-You can fully customize the look and feel of your Stripe Elements by using the <a href="https://stripe.com/docs/elements/appearance-api">Elements Appearance API</a>
+You can fully customize the look and feel of your Stripe Elements by using the <a href="https://stripe.com/docs/elements/appearance-api">Elements Appearance API.</a><br>
 Style your Stripe Checkout by using the <a href="https://stripe.com/docs/payments/checkout/customization">Customize Checkout</a><br>
 The latter will also effect your Stripe Payment Link style.<br><br>
 
