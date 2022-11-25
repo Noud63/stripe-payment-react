@@ -55,7 +55,7 @@ function Payment() {
 
     useEffect(() => {
         const getKey = async () => {
-            const res = await axios.get('/config')
+            const res = await axios.get('/getPubKey')
             const publishableKey = res.data.publishableKey
             setStripePromise(loadStripe(publishableKey));
         }
@@ -65,7 +65,7 @@ function Payment() {
 
     useEffect(() => {
         const getKey = async () => {
-            const res = await axios.post('/create-payment-intent', {})
+            const res = await axios.post('/stripepaymentelement', {})
             const clientSecret = res.data.clientSecret
             setClientSecret(clientSecret);
         }

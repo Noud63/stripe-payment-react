@@ -9,15 +9,15 @@ const Home = () => {
 
     const navigate = useNavigate()
 
-    //Stripe Payment Element
+    //Stripe Payment Element, create payment intent
     const checkItout1 = () => {
         navigate('/payment')
     }
 
-    // Stripe Checkout 
+    // Stripe Checkout, create checkout session
     const checkItout2 = async () => {
         try {
-            const res = await axios.post('/stripe/create-checkout-session', { cart, id: id })
+            const res = await axios.post('/stripeCheckout', { cart, id: id })
             const url = res.data.url
             if (url) {
                 window.location.href = url;
@@ -28,7 +28,7 @@ const Home = () => {
         }
     }
     
-    // Stripe Payment Link
+    // Stripe Payment Link, no server needed
     const checkItout3 = () => {
         window.location.href = 'https://buy.stripe.com/test_7sI4jefqu84l0Te6op'
     }

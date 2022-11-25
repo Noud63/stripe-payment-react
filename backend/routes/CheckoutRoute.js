@@ -9,7 +9,7 @@ app.use(express.static('public'))
 
 const YOUR_DOMAIN = 'http://localhost:3000';
 
-router.post('/create-checkout-session', async (req, res) => {
+router.post('/', async (req, res) => {
 
     const line_items = req.body.cart.map(product => {
         return {
