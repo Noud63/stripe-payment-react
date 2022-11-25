@@ -27,7 +27,7 @@ Nevert expose your secret key in the frontend!<br><br>
 
 You can fully customize the look and feel of your Stripe Elements by using the <a href="https://stripe.com/docs/elements/appearance-api">Elements Appearance API</a>
 Style your Stripe Checkout by using the <a href="https://stripe.com/docs/payments/checkout/customization">Customize Checkout</a><br>
-The latter will also effect your Stripe Payment Link style.<br>
+The latter will also effect your Stripe Payment Link style.<br><br>
 
 
 ![stripe](https://user-images.githubusercontent.com/38325801/203768791-96d5e493-4d2e-4e51-8d1c-f8e85f06b174.png)<br><br>
